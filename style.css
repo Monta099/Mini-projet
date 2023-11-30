@@ -1,0 +1,65 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    text-align: center;
+    color: black;
+    padding: 15px;
+    font-size: 15px;/*taille =15px*/
+    font-style: italic;/*type de style italic*/
+}
+fieldset{
+    margin-top: 50px;/*laisser un espace de 50px entre le formulaire et le top de la page*/
+    margin-left: auto;/*margin-left et right les deux lorsque ils sont auto le formulaire doit etre centre*/
+    margin-right: auto;
+    width: 40%;/*largeur du formulaire*/
+    height: 40%;/*hauteur du formulaire*/
+    background-image: url("images/7.jpg");/*imprtation d'image pour le background frormulaire*/
+    background-repeat: no-repeat;/*pour que l'image ne soit pas repeter*/
+    background-color: white(228, 219, 235, 0.63);
+    background-size: cover;/*couvrir tout le formulaire*/
+    border-style: dashed;/*le bordure du formulaire pointué*/
+    border-radius: 20px;/*form de formulaire*/
+}
+label{/*pour toute les labels dans le formulaire*/
+    color: rgb(34, 99, 136);
+    display: block;/*sous forme d'un block*/
+    margin-bottom: 5px;/*espacé de 5px*/
+    padding: 3px;
+    font-family: cursive;
+    text-decoration: none;
+  }
+  input[type="text"],input[type="email"]{/*pour tout les input de type text et email on applique ses propriétes*/
+    background-color: beige;/*couleur du background est beige*/
+    color:black;/*couleur des mots lorsqu'on fait la saisie dans les inputs*/
+    padding: 10px 7px ;
+    border: 0;/*aucune bordure pour les inputs*/
+
+  }
+.ch{
+    padding: 15px 15px;
+    margin: 20px;
+
+}
+input[type="submit"]{/*pour la decoration du boutton du type submit*/
+    background-color: rgba(27, 86, 195, 0.732);
+    color: black;
+    padding: 10px 15px ;
+    border-radius: 10px 20px 10px;/*forme du boutto*/
+    border: none;/*pas de bordure*/
+    cursor:pointer;/*lorsque on mais le cursor sur le boutton il devient pointer(une main)*/
+    transition: 3s;/*dynamic du boutton il y'a une transition vers l'avant de 3s*/
+    font-size: large;/*taille est large*/
+    justify-content: center;
+}
+
+footer{
+    text-transform: capitalize;/*chaque debut de mot commence avec un majuscule */
+    text-align: center;/*le text est au centre*/
+    font-weight: bold;
+    height: 50;
+    background-color: rgb(145, 166, 175);/*la bonde (background )est de couleur bleu*/
+  }
+
+

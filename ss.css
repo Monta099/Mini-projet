@@ -1,0 +1,17 @@
+body{
+    background-image: url("images/images.jpg") ;/*importer une image*/
+    background-repeat:no-repeat;/*pourque l'image ne se repete pas*/
+    background-size: cover;/*couvrir toute le frormulaire*/
+}
+.intro{/*on fait l'appel de la class intro a travers (.intro)ce qui de definir la paragraph de l'introduction et la decorer*/
+    text-align: center;
+    font-size: 40px;
+    text-decoration:  underline;/*text est souligné*/
+    color: cornflowerblue;
+
+}
+.definition{/*appel de la class definition*/
+   font-family: sans-serif;
+   color: darkblue;
+
+}
